@@ -17,4 +17,7 @@ kotlin {
 dependencies {
     implementation(project(":score-engine"))
     implementation(libs.kotlinx.coroutines.core)
+
+    // Test dependencies
+    testImplementation(libs.junit)
 }
